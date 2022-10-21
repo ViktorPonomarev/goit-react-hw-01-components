@@ -1,0 +1,28 @@
+.descriptionProfile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+
+.quantityProfile {
+    font-size: 25px;
+}
+
+.labelProfile {
+    margin-right: 15px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.statsProfile {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 17px 0px 0px rgb(77, 115, 138);
+}
