@@ -7,10 +7,10 @@ export const Profile = (props) => {
     
     const {
         avatar = defaultImage,
-        username = "Unknow",
-        tag = "Unknow",
-        location = "Not rusia",
-        stats = "Unknow"} = props;
+        username,
+        tag,
+        location,
+        stats} = props;
    
     return <div key={username} className={css.profile}>
   <div className={css.descriptionProfile}>
@@ -47,5 +47,5 @@ Profile.prototype = {
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
-    stats: PropTypes.number.isRequired,
+    stats: PropTypes.string.isRequired,
 }

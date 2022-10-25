@@ -1,0 +1,26 @@
+.itemStatisticsList {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100px;
+    align-items: center;
+}
+
+.statisticsList {
+    display: flex;
+    margin-top: 0;
+    border-radius: 15px;
+    box-shadow: 0px 17px 0px 0px rgb(77, 115, 138);
+    padding-left: 0;
+}
+
+.statTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.statisticContainer {
+    margin-bottom: 25px;
+}
